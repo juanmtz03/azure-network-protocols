@@ -25,24 +25,27 @@ First, log into DC-1 as a domain admin and Client-1 as a regular user to set up 
 
 <h2>Create some sample file shares with various permissions</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+<div align="center" style="display: grid; grid-template-columns: 4fr 1fr; gap: 5px; width: 80%; max-width: 400px;">
+<img src="https://github.com/user-attachments/assets/c35f7742-ac3a-49cb-a296-ea8ce8210bfc" alt="image" style="width: 50%; height: auto;">
+<img src="https://github.com/user-attachments/assets/afc6c96d-7279-4e90-aaca-7a06d54ea936" alt="image" style="width: 50%; height: auto;">
+<img src="https://github.com/user-attachments/assets/af35c269-d997-4bfe-b017-3a1d4d83c7bc" alt="image" style="width: 50%; height: auto;">
+<img src="https://github.com/user-attachments/assets/42cc7397-44f9-4771-837e-9725462c0633" alt="image" style="width: 50%; height: auto;">
+</div> 
 
-- **Create File Shares on DC-1**
-  - Log into `DC-1` as the domain admin account `mydomain.com\jane_admin`.
-  - On the `C:\` drive, create the folders: `read-access`, `write-access`, `no-access`, and `accounting`.
 
 - **Set Folder Permissions**
   - **Folder:** `read-access`  
     **Group:** `Domain Users`  
     **Permission:** `Read`
+    
   - **Folder:** `write-access`  
     **Group:** `Domain Users`  
     **Permission:** `Read/Write`
+    
   - **Folder:** `no-access`  
     **Group:** `Domain Admins`  
     **Permission:** `Read/Write`
+    
   - Skip setting permissions for `accounting` for now.
 
 <br />
