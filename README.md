@@ -51,7 +51,7 @@ First, log into DC-1 as a domain admin and Client-1 as a regular user to set up 
 <h2>Attempt to access file shares as a normal user</h2>
 
 - **Test File Share Access**
-  - On `Client-1`, login as a normal user (`mydomain\<someuser>`).
+  - On `Client-1`, login as a normal user (`mydomain\<bab.cif>`).
   - Navigate to the shared folder using `\\dc-1`.
   - Attempt to access the folders. Check which folders you can view and which ones allow file creation.
 
@@ -62,9 +62,6 @@ First, log into DC-1 as a domain admin and Client-1 as a regular user to set up 
 <br />
 
 <h2>Create an “ACCOUNTANTS” Security Group, assign permissions, an test access</h2>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 
 - **Set Up ACCOUNTANTS Security Group and Assign Permissions**
   - On `DC-1`, in Active Directory, create a new security group called `ACCOUNTANTS`.
@@ -72,12 +69,23 @@ First, log into DC-1 as a domain admin and Client-1 as a regular user to set up 
     - **Folder:** `accounting`  
       **Group:** `ACCOUNTANTS`  
       **Permission:** `Read/Write`
-  - Log in to `Client-1` as `<someuser>` and try to access the `accounting` folder. Access should be denied.
+  - Log in to `Client-1` as `<bab.cif>` and try to access the `accounting` folder. Access should be denied.
 
 - **Add User to ACCOUNTANTS Group and Re-Test Access**
-  - On `DC-1`, add `<someuser>` to the `ACCOUNTANTS` security group.
-  - Sign back into `Client-1` as `<someuser>` and try to access the `accounting` folder at `\\DC-1\`. Access should now be granted.
+  - On `DC-1`, add `<bab.cif>` to the `ACCOUNTANTS` security group.
+  - Sign back into `Client-1` as `<bab.cif>` and try to access the `accounting` folder at `\\DC-1\`. Access should now be granted.
 
+<div align="center" style="display: grid; grid-template-columns: 4fr 1fr; gap: 5px; width: 80%; max-width: 400px;">
+<img src="https://github.com/user-attachments/assets/8b579ab4-89fc-4fee-8e24-8fb4478cd913" alt="image" style="width: 50%; height: auto;">
+<img src="https://github.com/user-attachments/assets/e776f6d3-71b6-4257-8d92-f49c444fa39d" alt="image" style="width: 50%; height: auto;">
+<img src="https://github.com/user-attachments/assets/eaf4214d-cfe3-44e9-b01a-7c5e49301e89" alt="image" style="width: 50%; height: auto;">
+<img src="https://github.com/user-attachments/assets/cd923777-ac26-47dd-b189-9f8e79c4ee9d" alt="image" style="width: 50%; height: auto;">
+<img src="https://github.com/user-attachments/assets/9535acb5-3bd9-42c7-a8a9-90bc26f0ea89" alt="image" style="width: 50%; height: auto;">
+<img src="https://github.com/user-attachments/assets/66ab67fb-efc6-4393-88a7-d8fb72bdbd16" alt="image" style="width: 50%; height: auto;">
+<img src="https://github.com/user-attachments/assets/5d5cf971-d9d9-4326-b14e-9c9fa16ab2ff" alt="image" style="width: 50%; height: auto;">
+<img src="https://github.com/user-attachments/assets/9c0c0b38-0fd3-4a2a-9c07-78edc2212031" alt="image" style="width: 50%; height: auto;">
+  
+</div> 
 <br />
 
 
