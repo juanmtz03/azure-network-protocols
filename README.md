@@ -101,7 +101,23 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <li>Create a Linux (Ubuntu) VM
 </li>
--While creating the VM, select the previously created Resource Group   
+
+-While creating the VM, select the previously created Resource Group  
+  - Name the virtual machine: `linux-vm`.  
+  - Ensure the location is set to the same region as the Windows VM: West US 2 (to allow connectivity between the VMs).  
+  - For the image, select Ubuntu Server 24, Gen 2.  
+  - For the size, choose an option with 2 CPUs or more.  
+
+- Authentication configuration:  
+  - Change the authentication method from SSH Public Key to Password.  
+  - Use the following credentials:  
+    - Username: `laborer`  
+    - Password: `Cyberlab123!`  
+
+- Next steps:  
+  - Click "Next: Disk."  
+  - Click "Next: Networking."
+
 <img src="https://github.com/user-attachments/assets/321d7d01-4249-4436-89a4-75c0596a0cc1" alt="Screen Shot 2025-01-07 at 21 50 28 PM" width="80%">
 <img src="https://github.com/user-attachments/assets/d58bc1c8-e49c-417b-8a37-18204e87bce7" alt="Screen Shot 2025-01-07 at 21 51 25 PM" width="80%">
 <img src="https://github.com/user-attachments/assets/5dba7095-44c1-4446-8c19-bd2e4c562a7d" alt="Screen Shot 2025-01-07 at 21 51 28 PM" width="80%">
@@ -111,9 +127,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://github.com/user-attachments/assets/ea310185-b26f-4ca7-90c0-3ba27ea3bbad" alt="Screen Shot 2025-01-07 at 21 52 29 PM" width="80%">
 <img src="https://github.com/user-attachments/assets/015289e2-618b-41a7-af10-0e023102a394" alt="Screen Shot 2025-01-07 at 21 52 39 PM" width="80%">
 <img src="https://github.com/user-attachments/assets/3faf4d07-f683-464d-9536-8bbaae3e3ad2" alt="Screen Shot 2025-01-07 at 21 52 42 PM" width="80%">
-<img src="https://github.com/user-attachments/assets/ea310185-b26f-4ca7-90c0-3ba27ea3bbad" alt="Create a Virtual Machine" width="80%">
-<img src="https://github.com/user-attachments/assets/015289e2-618b-41a7-af10-0e023102a394" alt="Create a Virtual Machine" width="80%">
-<img src="https://github.com/user-attachments/assets/3faf4d07-f683-464d-9536-8bbaae3e3ad2" alt="Create a Virtual Machine" width="80%">
 
 <li>While creating the VM, select the previously created Vnet</li>
  
@@ -121,12 +134,37 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://github.com/user-attachments/assets/fcc8eb89-b70a-4f0c-8fa3-ca681c5bf10c" alt="Create a Virtual Machine" width="80%">
 <img src="https://github.com/user-attachments/assets/d4de0f8d-ca30-4a57-bea7-75ac0e4d697f" alt="Create a Virtual Machine" width="80%">
 <img src="https://github.com/user-attachments/assets/2c6ffe3f-92aa-41d9-b5a1-1af387c1b3ed" alt="Create a Virtual Machine" width="80%">
+
+- Click on "Go to Resource" or on the top-left corner where it says "Microsoft Azure" to return to the home page and view your resources.
+
 <img src="https://github.com/user-attachments/assets/b7482d2c-fd98-4d23-99a2-a2c066cd0ba6" alt="Create a Virtual Machine" width="80%">
 <img src="https://github.com/user-attachments/assets/9e8e9cf9-303b-4293-b336-e9f08a3bc9ce" alt="Create a Virtual Machine" width="80%">
 
 <li>Observe Your Virtual Network within Network Watcher</li>
 
+- Make sure both VMs are in the same Virtual Network (VNet).
+
+<img src="https://github.com/user-attachments/assets/fa62e158-3e45-44c6-b86b-641aba5abe2e" alt="Create a Virtual Machine" width="80%">
+<img src="https://github.com/user-attachments/assets/5ff474dd-3517-4e80-8604-9f7608129fae" alt="Create a Virtual Machine" width="80%">
+<img src="https://github.com/user-attachments/assets/729a55aa-b75d-419b-bbec-27ddffaed405" alt="Create a Virtual Machine" width="80%">
+<img src="https://github.com/user-attachments/assets/548d3046-3b91-4cff-847c-feb5715320ee" alt="Create a Virtual Machine" width="80%">
+
+- Then, go to the Virtual Machine page.  
+
 <img src="https://github.com/user-attachments/assets/c4c4b284-57f4-46c3-8eff-9a717a3f19d3" alt="Create a Virtual Machine" width="80%">
+
+- You can tell your virtual machines are running.  
+  - For cost savings, or if you won’t use them for a night or more than a few hours, you should stop your VMs.  
+
+- **To Stop the VMs:**  
+  - Select both VMs.  
+  - Click on the "Stop" button located at the top-right, next to the "Delete" button.  
+  - Wait until the status changes to **Stopped**.  
+
+- **To Start the VMs:**  
+  - When you need the VMs back online, select both VMs.  
+  - Click on the "Start" button.  
+  - Wait until the status changes to **Running**.  
 <img src="https://github.com/user-attachments/assets/d65fe4bb-47b0-4258-97ab-d18ae0e98595" alt="Create a Virtual Machine" width="80%">
 <img src="https://github.com/user-attachments/assets/7c5578a6-5c38-479a-b739-893f2c533e4f" alt="Create a Virtual Machine" width="80%">
 
