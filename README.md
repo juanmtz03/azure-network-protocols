@@ -30,13 +30,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   <p>
 <img src="https://github.com/user-attachments/assets/c0ad3b2b-368e-4858-87b4-01aaf022b29d" height="80%" width="80%" alt="Lab 1"/>
 </p>
-  
+<ol>
+  <li>Create a Resource Group</li>
   <li>Create a Windows 10 Virtual Machine (VM)
-
-
-
-
-    
     <ul>
       <li>While creating the VM, select the previously created Resource Group</li>
       <li>While creating the VM, allow it to create a new Virtual Network (Vnet) and Subnet</li>
@@ -49,10 +45,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   </li>
   <li>Observe Your Virtual Network within Network Watcher</li>
 </ol>
-<p>
-<img src="https://github.com/user-attachments/assets/c0ad3b2b-368e-4858-87b4-01aaf022b29d" height="80%" width="80%" alt="Lab 1"/>
-</p>
-
 <h2>Observe ICMP Traffic</h2>
 <p>
 First, I created an Azure Tenant and Subscription in Azure. After logging into the Azure portal, the dashboard should appear with no existing Resource Groups.
@@ -94,24 +86,6 @@ First, I created an Azure Tenant and Subscription in Azure. After logging into t
   <li>Delete the Resource Group(s) created at the beginning of this lab</li>
   <li>Verify Resource Group Deletion</li>
 </ul>
-
-
-
-
-![Screen Shot 2025-01-07 at 21 35 08 PM](https://github.com/user-attachments/assets/c0ad3b2b-368e-4858-87b4-01aaf022b29d)
-
-![Screen Shot 2025-01-07 at 21 35 14 PM](https://github.com/user-attachments/assets/3b359674-74e4-4e7f-88ca-5f2d0baa8fa5)
-
-![Screen Shot 2025-01-07 at 21 36 15 PM](https://github.com/user-attachments/assets/aec6aa25-c7a0-4f37-8102-2063e7978030)
-
-![Screen Shot 2025-01-07 at 21 36 30 PM](https://github.com/user-attachments/assets/d220717c-9fa0-43bf-bb52-a08d2005addd)
-
-
-
-
-
-
-
 
 <h2>Conclusion:</h2>
 
