@@ -19,7 +19,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Windows 10 (21H2)
 - Ubuntu Server 20.04
 
-<h2>Create our Resources</h2> 
 <p>To start with this lab, you only need an Azure Tenant and Subscription. This means simply creating an Azure account and adding a payment method (don’t worry—you can use a free or pay-as-you-go plan). Once that’s set up, we’ll be creating some virtual machines to dive into the lab!</p>
 <p>
 <img src="https://github.com/user-attachments/assets/7a477b65-25c1-4577-a800-8d0dd4d0177c" height="80%" width="80%" alt="Part 1"/>
@@ -29,9 +28,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   <li>Create a Resource Group</li>
   <p>
 <img src="https://github.com/user-attachments/assets/c0ad3b2b-368e-4858-87b4-01aaf022b29d" height="80%" width="80%" alt="Lab 1"/>
+    
 </p>
-<ol>
-  <li>Create a Resource Group</li>
   <li>Create a Windows 10 Virtual Machine (VM)
     <ul>
       <li>While creating the VM, select the previously created Resource Group</li>
