@@ -25,8 +25,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 
 <p>
-<li>
-<ol>
+<ol>  
   <li>Create a Resource Group</li>
   
 - After creating your resource group, click on it to access the page.
@@ -54,16 +53,19 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://github.com/user-attachments/assets/9f8928da-17e2-4bde-a488-37b13908242d" alt="Screen Shot 2025-01-07 at 21 37 23 PM" width="80%">
 <img src="https://github.com/user-attachments/assets/4a64ea01-8521-4530-9381-6465b61898a0" alt="Screen Shot 2025-01-07 at 21 37 28 PM" width="80%">
 
-<li>While creating the VM, select the previously created Resource Group</li>
+  <li>While creating the VM, select the previously created Resource Group</li>
   
--Set Virtual Machine Details:
--Ensure the location is set to “West US 2” for consistency with the resource group.
--Choose “Windows 10” as the OS.
--For the size, select an option with at least 2 CPUs. You may choose up to 4 CPUs for a higher specification (estimated cost will be less than $10-20 a month, depending on usage).
--Set Username and Password:
--Username: labuser
--Password: Cyberlab123!
--Click on it "I confirm box check" and "Next: Disk".
+- Set Virtual Machine Details:
+  - Ensure the location is set to “West US 2” for consistency with the resource group.
+  - Choose “Windows 10” as the OS.
+  - For the size, select an option with at least 2 CPUs. You may choose up to 4 CPUs for a higher specification (estimated cost will be less than $10-20 a month, depending on usage).
+
+- Set Username and Password:
+  - Username: `labuser`
+  - Password: `Cyberlab123!`
+
+- Click "I confirm..." and "Next: Disk".
+- Click "Next: Networking".
   
 <img src="https://github.com/user-attachments/assets/b43edc4d-286b-42ea-9b50-77a76a4a95d7" alt="Screen Shot 2025-01-07 at 21 38 06 PM" width="80%">
 <img src="https://github.com/user-attachments/assets/2effb84f-6108-4991-81a7-8d9bde6d39ec" alt="Screen Shot 2025-01-07 at 21 38 54 PM" width="80%">
@@ -71,18 +73,19 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://github.com/user-attachments/assets/e498f13d-e8f5-4dbb-9d72-c46f4d80586f" alt="Screen Shot 2025-01-07 at 21 39 16 PM" width="80%">
 <img src="https://github.com/user-attachments/assets/503413d7-f9d1-427e-a434-3087b09207e5" alt="Screen Shot 2025-01-07 at 21 42 09 PM" width="80%">
 <img src="https://github.com/user-attachments/assets/f5cfa6db-55f6-4038-ba54-36e65c80bc75" alt="Screen Shot 2025-01-07 at 21 42 18 PM" width="80%">
-<img src="https://github.com/user-attachments/assets/04c17589-2ce6-417a-85e2-9f5f29e53783" alt="Screen Shot 2025-01-07 at 21 42 21 PM" width="80%">
 <img src="https://github.com/user-attachments/assets/b662d59d-04bd-40d3-8f16-97cccc522296" alt="Screen Shot 2025-01-07 at 21 43 27 PM" width="80%">
 
 <li>While creating the VM, allow it to create a new Virtual Network (Vnet) and Subnet</li>
   
--Create a new virtual network and ensure the name matches the image provided for this lab.
--Confirm and click “OK.”
--Final Steps:
--Click “Review and Create.”
--If validation passes, click “Create.”
--Wait for the deployment to complete. You’ll see a notification on the top right once it’s successfully deployed.
--For safety, refresh the portal by typing “portal.azure.com” to ensure everything is correctly displayed and running.
+- Create a new virtual network and ensure the name matches the image provided for this lab.
+- Confirm and click “OK.”
+
+- Final Steps:
+  - Click “Review and Create.”
+  - If validation passes, click “Create.”
+  - Wait for the deployment to complete. You’ll see a notification on the top right once it’s successfully deployed.
+  - For safety, refresh the portal by typing “portal.azure.com” to ensure everything is correctly displayed and running.
+
  
 <img src="https://github.com/user-attachments/assets/609ffc0b-c3c1-4e81-9e5e-ac43cad4c520" alt="Screen Shot 2025-01-07 at 21 43 35 PM" width="80%">   
 <img src="https://github.com/user-attachments/assets/ef937194-c40f-4364-bbd5-30ff18094d1b" alt="Screen Shot 2025-01-07 at 21 43 38 PM" width="80%">
@@ -96,10 +99,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://github.com/user-attachments/assets/6f2e7798-c216-4a89-b024-69ff701c5eb3" alt="Screen Shot 2025-01-07 at 21 50 01 PM" width="80%">
 <img src="https://github.com/user-attachments/assets/8261542b-ca0d-4c2b-80ab-b4f8e4ba6e5c" alt="Screen Shot 2025-01-07 at 21 50 16 PM" width="80%">
 
-
-<li>Create a Linux (Ubuntu) VM</li>
--While creating the VM, select the previously created Resource Group
-   
+<li>Create a Linux (Ubuntu) VM
+</li>
+-While creating the VM, select the previously created Resource Group   
 <img src="https://github.com/user-attachments/assets/321d7d01-4249-4436-89a4-75c0596a0cc1" alt="Screen Shot 2025-01-07 at 21 50 28 PM" width="80%">
 <img src="https://github.com/user-attachments/assets/d58bc1c8-e49c-417b-8a37-18204e87bce7" alt="Screen Shot 2025-01-07 at 21 51 25 PM" width="80%">
 <img src="https://github.com/user-attachments/assets/5dba7095-44c1-4446-8c19-bd2e4c562a7d" alt="Screen Shot 2025-01-07 at 21 51 28 PM" width="80%">
@@ -129,7 +131,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://github.com/user-attachments/assets/7c5578a6-5c38-479a-b739-893f2c533e4f" alt="Create a Virtual Machine" width="80%">
 
 </p>
-</li>
 </ol>
 
 <h2>Observe ICMP Traffic</h2>
