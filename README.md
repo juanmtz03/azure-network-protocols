@@ -67,6 +67,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://github.com/user-attachments/assets/a2e083b9-dc6c-4ac1-8b86-df1ff61e6b73" alt="Screen Shot 2025-01-07 at 21 49 44 PM" width="80%">
 <img src="https://github.com/user-attachments/assets/6f2e7798-c216-4a89-b024-69ff701c5eb3" alt="Screen Shot 2025-01-07 at 21 50 01 PM" width="80%">
 <img src="https://github.com/user-attachments/assets/8261542b-ca0d-4c2b-80ab-b4f8e4ba6e5c" alt="Screen Shot 2025-01-07 at 21 50 16 PM" width="80%">
+
+  <li>Create a Linux (Ubuntu) VM
+    <ul>
+      <li>While creating the VM, select the previously created Resource Group </li>
+   
 <img src="https://github.com/user-attachments/assets/321d7d01-4249-4436-89a4-75c0596a0cc1" alt="Screen Shot 2025-01-07 at 21 50 28 PM" width="80%">
 <img src="https://github.com/user-attachments/assets/d58bc1c8-e49c-417b-8a37-18204e87bce7" alt="Screen Shot 2025-01-07 at 21 51 25 PM" width="80%">
 <img src="https://github.com/user-attachments/assets/5dba7095-44c1-4446-8c19-bd2e4c562a7d" alt="Screen Shot 2025-01-07 at 21 51 28 PM" width="80%">
@@ -76,29 +81,31 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://github.com/user-attachments/assets/ea310185-b26f-4ca7-90c0-3ba27ea3bbad" alt="Screen Shot 2025-01-07 at 21 52 29 PM" width="80%">
 <img src="https://github.com/user-attachments/assets/015289e2-618b-41a7-af10-0e023102a394" alt="Screen Shot 2025-01-07 at 21 52 39 PM" width="80%">
 <img src="https://github.com/user-attachments/assets/3faf4d07-f683-464d-9536-8bbaae3e3ad2" alt="Screen Shot 2025-01-07 at 21 52 42 PM" width="80%">
-<img src=" https://github.com/user-attachments/assets/ea310185-b26f-4ca7-90c0-3ba27ea3bbad " alt="Create a Virtual Machine" width="80%">
-<img src=" https://github.com/user-attachments/assets/015289e2-618b-41a7-af10-0e023102a394 " alt="Create a Virtual Machine" width="80%">
-<img src=" https://github.com/user-attachments/assets/3faf4d07-f683-464d-9536-8bbaae3e3ad2 " alt="Create a Virtual Machine" width="80%">
-<img src="https://github.com/user-attachments/assets/af2384ac-a275-44c9-b401-8b6303581a41  " alt="Create a Virtual Machine" width="80%">
+<img src="https://github.com/user-attachments/assets/ea310185-b26f-4ca7-90c0-3ba27ea3bbad" alt="Create a Virtual Machine" width="80%">
+<img src="https://github.com/user-attachments/assets/015289e2-618b-41a7-af10-0e023102a394" alt="Create a Virtual Machine" width="80%">
+<img src="https://github.com/user-attachments/assets/3faf4d07-f683-464d-9536-8bbaae3e3ad2" alt="Create a Virtual Machine" width="80%">
+
+   <li>While creating the VM, select the previously created Vnet</li>
+  </ul>
+</li>
+
+<img src="https://github.com/user-attachments/assets/af2384ac-a275-44c9-b401-8b6303581a41" alt="Create a Virtual Machine" width="80%">
 <img src="https://github.com/user-attachments/assets/fcc8eb89-b70a-4f0c-8fa3-ca681c5bf10c" alt="Create a Virtual Machine" width="80%">
 <img src="https://github.com/user-attachments/assets/d4de0f8d-ca30-4a57-bea7-75ac0e4d697f" alt="Create a Virtual Machine" width="80%">
 <img src="https://github.com/user-attachments/assets/2c6ffe3f-92aa-41d9-b5a1-1af387c1b3ed" alt="Create a Virtual Machine" width="80%">
 <img src="https://github.com/user-attachments/assets/b7482d2c-fd98-4d23-99a2-a2c066cd0ba6" alt="Create a Virtual Machine" width="80%">
 <img src="https://github.com/user-attachments/assets/9e8e9cf9-303b-4293-b336-e9f08a3bc9ce" alt="Create a Virtual Machine" width="80%">
+
+<li>Observe Your Virtual Network within Network Watcher</li>
+
 <img src="https://github.com/user-attachments/assets/c4c4b284-57f4-46c3-8eff-9a717a3f19d3" alt="Create a Virtual Machine" width="80%">
 <img src="https://github.com/user-attachments/assets/d65fe4bb-47b0-4258-97ab-d18ae0e98595" alt="Create a Virtual Machine" width="80%">
 <img src="https://github.com/user-attachments/assets/7c5578a6-5c38-479a-b739-893f2c533e4f" alt="Create a Virtual Machine" width="80%">
 </div>
 </p>
 </li>
-  
-  <li>Create a Linux (Ubuntu) VM
-    <ul>
-      <li>While creating the VM, select the previously created Resource Group and Vnet</li>
-    </ul>
-  </li>
-  <li>Observe Your Virtual Network within Network Watcher</li>
 </ol>
+
 <h2>Observe ICMP Traffic</h2>
 <p>
 First, I created an Azure Tenant and Subscription in Azure. After logging into the Azure portal, the dashboard should appear with no existing Resource Groups.
