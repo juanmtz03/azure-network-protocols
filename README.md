@@ -27,7 +27,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <ol>
   <li>Create a Resource Group</li>
   <p>
-<img src="https://github.com/user-attachments/assets/313dbd03-9b27-4032-9458-6d468a0785fb" alt="Screen Shot 2025-01-07 at 21 33 03 PM" width="80%">
 <img src="https://github.com/user-attachments/assets/9090ac41-13cf-41b8-a85c-5eb7cb1a0868" alt="Screen Shot 2025-01-07 at 21 35 08 PM" width="80%">
 <img src="https://github.com/user-attachments/assets/8b7056ca-1e01-4e75-97c6-5870a18fbf64" alt="Screen Shot 2025-01-07 at 21 35 14 PM" width="80%">
 <img src="https://github.com/user-attachments/assets/593b4c8b-88a7-4985-b807-06f7e5b71102" alt="Screen Shot 2025-01-07 at 21 36 15 PM" width="80%">
