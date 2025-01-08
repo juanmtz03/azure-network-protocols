@@ -27,8 +27,57 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <ol>
   <li>Create a Resource Group</li>
   <p>
-<img src="https://github.com/user-attachments/assets/c0ad3b2b-368e-4858-87b4-01aaf022b29d" height="80%" width="80%" alt="Lab 1"/>
-    
+<img src="https://github.com/user-attachments/assets/313dbd03-9b27-4032-9458-6d468a0785fb" alt="Screen Shot 2025-01-07 at 21 33 03 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/9090ac41-13cf-41b8-a85c-5eb7cb1a0868" alt="Screen Shot 2025-01-07 at 21 35 08 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/8b7056ca-1e01-4e75-97c6-5870a18fbf64" alt="Screen Shot 2025-01-07 at 21 35 14 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/593b4c8b-88a7-4985-b807-06f7e5b71102" alt="Screen Shot 2025-01-07 at 21 36 15 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/01e8b90f-ec54-4f3b-8566-1d69ee2c87de" alt="Screen Shot 2025-01-07 at 21 36 30 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/fbd045e4-5aee-4504-914e-08cba88f0588" alt="Screen Shot 2025-01-07 at 21 36 36 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/e9b61cc5-6b13-48ec-ad4f-3ac484e169b8" alt="Screen Shot 2025-01-07 at 21 36 45 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/15fd473e-4a76-4a75-ba9c-3123b9a80584" alt="Screen Shot 2025-01-07 at 21 37 17 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/9f8928da-17e2-4bde-a488-37b13908242d" alt="Screen Shot 2025-01-07 at 21 37 23 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/4a64ea01-8521-4530-9381-6465b61898a0" alt="Screen Shot 2025-01-07 at 21 37 28 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/b43edc4d-286b-42ea-9b50-77a76a4a95d7" alt="Screen Shot 2025-01-07 at 21 38 06 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/2effb84f-6108-4991-81a7-8d9bde6d39ec" alt="Screen Shot 2025-01-07 at 21 38 54 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/05816298-2bbf-4fdf-b63a-1c9b3a5ea5f7" alt="Screen Shot 2025-01-07 at 21 39 06 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/e498f13d-e8f5-4dbb-9d72-c46f4d80586f" alt="Screen Shot 2025-01-07 at 21 39 16 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/503413d7-f9d1-427e-a434-3087b09207e5" alt="Screen Shot 2025-01-07 at 21 42 09 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/f5cfa6db-55f6-4038-ba54-36e65c80bc75" alt="Screen Shot 2025-01-07 at 21 42 18 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/04c17589-2ce6-417a-85e2-9f5f29e53783" alt="Screen Shot 2025-01-07 at 21 42 21 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/b662d59d-04bd-40d3-8f16-97cccc522296" alt="Screen Shot 2025-01-07 at 21 43 27 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/609ffc0b-c3c1-4e81-9e5e-ac43cad4c520" alt="Screen Shot 2025-01-07 at 21 43 35 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/ef937194-c40f-4364-bbd5-30ff18094d1b" alt="Screen Shot 2025-01-07 at 21 43 38 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/e1d126db-ed89-4a09-9766-4f4d8bb3ddf8" alt="Screen Shot 2025-01-07 at 21 44 07 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/3460db73-5b8d-46d1-93fe-3a99b71e845f" alt="Screen Shot 2025-01-07 at 21 44 11 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/495bcbdf-39be-43b2-b1fe-b337acdebdcb" alt="Screen Shot 2025-01-07 at 21 44 19 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/7812d759-a0cf-400b-b9f0-396e0b2badbf" alt="Screen Shot 2025-01-07 at 21 46 00 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/af18c532-e446-4fc8-8977-9848e7b8fdc1" alt="Screen Shot 2025-01-07 at 21 46 29 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/813171c4-53e7-4089-b99f-5c9445c99565" alt="Screen Shot 2025-01-07 at 21 47 10 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/a2e083b9-dc6c-4ac1-8b86-df1ff61e6b73" alt="Screen Shot 2025-01-07 at 21 49 44 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/6f2e7798-c216-4a89-b024-69ff701c5eb3" alt="Screen Shot 2025-01-07 at 21 50 01 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/8261542b-ca0d-4c2b-80ab-b4f8e4ba6e5c" alt="Screen Shot 2025-01-07 at 21 50 16 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/321d7d01-4249-4436-89a4-75c0596a0cc1" alt="Screen Shot 2025-01-07 at 21 50 28 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/d58bc1c8-e49c-417b-8a37-18204e87bce7" alt="Screen Shot 2025-01-07 at 21 51 25 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/5dba7095-44c1-4446-8c19-bd2e4c562a7d" alt="Screen Shot 2025-01-07 at 21 51 28 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/ab1f85cb-a742-4206-9b68-8450d2375dd0" alt="Screen Shot 2025-01-07 at 21 51 48 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/ddef5541-dbf2-4de3-ac4c-2c0969cae6fc" alt="Screen Shot 2025-01-07 at 21 51 58 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/a33bc8a7-6d7f-48b3-a65f-9a35b5e2cfc6" alt="Screen Shot 2025-01-07 at 21 52 03 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/ea310185-b26f-4ca7-90c0-3ba27ea3bbad" alt="Screen Shot 2025-01-07 at 21 52 29 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/015289e2-618b-41a7-af10-0e023102a394" alt="Screen Shot 2025-01-07 at 21 52 39 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/3faf4d07-f683-464d-9536-8bbaae3e3ad2" alt="Screen Shot 2025-01-07 at 21 52 42 PM" width="80%">
+<img src=" https://github.com/user-attachments/assets/ea310185-b26f-4ca7-90c0-3ba27ea3bbad " alt="Create a Virtual Machine" width="80%">
+<img src=" https://github.com/user-attachments/assets/015289e2-618b-41a7-af10-0e023102a394 " alt="Create a Virtual Machine" width="80%">
+<img src=" https://github.com/user-attachments/assets/3faf4d07-f683-464d-9536-8bbaae3e3ad2 " alt="Create a Virtual Machine" width="80%">
+<img src="https://github.com/user-attachments/assets/af2384ac-a275-44c9-b401-8b6303581a41  " alt="Create a Virtual Machine" width="80%">
+<img src="https://github.com/user-attachments/assets/fcc8eb89-b70a-4f0c-8fa3-ca681c5bf10c" alt="Create a Virtual Machine" width="80%">
+<img src="https://github.com/user-attachments/assets/d4de0f8d-ca30-4a57-bea7-75ac0e4d697f" alt="Create a Virtual Machine" width="80%">
+<img src="https://github.com/user-attachments/assets/2c6ffe3f-92aa-41d9-b5a1-1af387c1b3ed" alt="Create a Virtual Machine" width="80%">
+<img src="https://github.com/user-attachments/assets/b7482d2c-fd98-4d23-99a2-a2c066cd0ba6" alt="Create a Virtual Machine" width="80%">
+<img src="https://github.com/user-attachments/assets/9e8e9cf9-303b-4293-b336-e9f08a3bc9ce" alt="Create a Virtual Machine" width="80%">
+<img src="https://github.com/user-attachments/assets/c4c4b284-57f4-46c3-8eff-9a717a3f19d3" alt="Create a Virtual Machine" width="80%">
+<img src="https://github.com/user-attachments/assets/d65fe4bb-47b0-4258-97ab-d18ae0e98595" alt="Create a Virtual Machine" width="80%">
+<img src="https://github.com/user-attachments/assets/7c5578a6-5c38-479a-b739-893f2c533e4f" alt="Create a Virtual Machine" width="80%">
+</div>
 </p>
   <li>Create a Windows 10 Virtual Machine (VM)
     <ul>
