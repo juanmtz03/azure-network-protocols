@@ -172,12 +172,24 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </ol>
 
 <h2>Observe ICMP Traffic</h2>
-<p>
-First, I created an Azure Tenant and Subscription in Azure. After logging into the Azure portal, the dashboard should appear with no existing Resource Groups.
-</p>
-<p>
+
+- If using a Mac, install **Microsoft Remote Desktop**.  
+- Use Remote Desktop to connect to your Windows 10 Virtual Machine.  
+- Within your Windows 10 Virtual Machine:  
+  - Install **Wireshark**.  
+  - Open Wireshark and start a packet capture.  
+  - Filter for **ICMP traffic only**.  
+
+- Retrieve the private IP address of the Ubuntu VM (`linux-vm`) and attempt to ping it from within the Windows 10 VM.  
+  - Observe the ping requests and replies within Wireshark.  
+
+- From the Windows 10 VM:  
+  - Open Command Line or PowerShell.  
+  - Attempt to ping a public website (e.g., `www.google.com`).  
+  - Observe the traffic in Wireshark.  
+
 <img src="https://github.com/user-attachments/assets/b473e66a-630e-4931-a4ee-96bf338519d1" height="80%" width="80%" alt="Part 1"/>
-</p>
+
 <h2>Observe SSH Traffic</h2>
 <p>
 First, I created an Azure Tenant and Subscription in Azure. After logging into the Azure portal, the dashboard should appear with no existing Resource Groups.
