@@ -189,6 +189,44 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 [![Screen Shot](https://github.com/user-attachments/assets/8919c447-7e87-45fa-8598-26af70648a03)](https://youtu.be/2_FNf9q3QTc)
 
+<h2>Configuring a Firewall (Network Security Group):</h2>
+
+  - Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM.  
+  - Open the Network Security Group (NSG) of Ubuntu VM, and disable incoming (inbound) ICMP traffic.  
+  - Back in the Windows 10 VM:  
+    - Observe the ICMP traffic in Wireshark and the command line Ping activity (the ping should stop working).  
+  - Re-enable ICMP traffic for the Network Security Group your Ubuntu VM is using.  
+  - Back in the Windows 10 VM:  
+    - Observe the ICMP traffic in Wireshark and the command line Ping activity (the ping should start working again).  
+  - Stop the ping activity.
+
+## Observe SSH Traffic  
+- Log back into the `windows-vm`.  
+- In Wireshark, start a packet capture.  
+- Filter for SSH traffic only.  
+- From your Windows 10 VM, SSH into your Ubuntu Virtual Machine using its private IP address:  
+  - Open PowerShell and type: `ssh labuser@<private IP address>`  
+- Type commands (username, password, etc.) into the Linux SSH connection and observe the SSH traffic in Wireshark.  
+- Exit the SSH connection by typing `exit` and pressing [Enter].  
+
+## Observe DHCP Traffic  
+- Back in Wireshark, filter for DHCP traffic only.  
+- From your Windows 10 VM, issue your VM a new IP address from the command line:  
+  - Open PowerShell as admin and run: `ipconfig /renew`  
+- Observe the DHCP traffic appearing in Wireshark.  
+
+## Observe DNS Traffic  
+- Back in Wireshark, filter for DNS traffic only.  
+- From your Windows 10 VM, use `nslookup` to resolve the IP addresses for `google.com` and `disney.com`:  
+  - Open the command line and type: `nslookup google.com` and `nslookup disney.com`.  
+- Observe the DNS traffic in Wireshark.  
+
+## Observe RDP Traffic  
+- Back in Wireshark, filter for RDP traffic only (`tcp.port == 3389`).  
+- Observe the immediate, non-stop spam of traffic.  
+- **Why does RDP traffic constantly spam?**  
+  - RDP (Remote Desktop Protocol) constantly streams live data between two computers, so traffic is always being transmitted.  
+
 <h2>Observe SSH Traffic</h2>
 <p>
 First, I created an Azure Tenant and Subscription in Azure. After logging into the Azure portal, the dashboard should appear with no existing Resource Groups.
