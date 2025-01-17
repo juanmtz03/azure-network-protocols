@@ -51,10 +51,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://github.com/user-attachments/assets/15fd473e-4a76-4a75-ba9c-3123b9a80584" alt="Screen Shot 2025-01-07 at 21 37 17 PM" width="80%">
 <img src="https://github.com/user-attachments/assets/9f8928da-17e2-4bde-a488-37b13908242d" alt="Screen Shot 2025-01-07 at 21 37 23 PM" width="80%">
 <img src="https://github.com/user-attachments/assets/4a64ea01-8521-4530-9381-6465b61898a0" alt="Screen Shot 2025-01-07 at 21 37 28 PM" width="80%">
+<img src="https://github.com/user-attachments/assets/b43edc4d-286b-42ea-9b50-77a76a4a95d7" alt="Screen Shot 2025-01-07 at 21 38 06 PM" width="80%">
 
   <li>While creating the VM, select the previously created Resource Group</li>
   
 - Set Virtual Machine Details:
+  - Name: windows-vm
   - Ensure the location is set to “West US 2” for consistency with the resource group.
   - Choose “Windows 10” as the OS.
   - For the size, select an option with at least 2 CPUs. You may choose up to 4 CPUs for a higher specification (estimated cost will be less than $10-20 a month, depending on usage).
@@ -66,7 +68,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Click "I confirm..." and "Next: Disk".
 - Click "Next: Networking".
   
-<img src="https://github.com/user-attachments/assets/b43edc4d-286b-42ea-9b50-77a76a4a95d7" alt="Screen Shot 2025-01-07 at 21 38 06 PM" width="80%">
 <img src="https://github.com/user-attachments/assets/2effb84f-6108-4991-81a7-8d9bde6d39ec" alt="Screen Shot 2025-01-07 at 21 38 54 PM" width="80%">
 <img src="https://github.com/user-attachments/assets/05816298-2bbf-4fdf-b63a-1c9b3a5ea5f7" alt="Screen Shot 2025-01-07 at 21 39 06 PM" width="80%">
 <img src="https://github.com/user-attachments/assets/e498f13d-e8f5-4dbb-9d72-c46f4d80586f" alt="Screen Shot 2025-01-07 at 21 39 16 PM" width="80%">
