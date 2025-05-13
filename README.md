@@ -234,8 +234,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   - Open PowerShell as admin and run: `ipconfig /renew`  
 - Observe the DHCP traffic appearing in Wireshark.  </p>
 
-<p>
-<img src="https://github.com/user-attachments/assets/b473e66a-630e-4931-a4ee-96bf338519d1" height="80%" width="80%" alt="Part 1"/>
+<p align="center">
+  <a href="https://youtu.be/Q_fCYMqDARo">
+    <img src="https://img.youtube.com/vi/Q_fCYMqDARo/0.jpg" width="80%" />
+  </a>
 </p>
 
 <h2>Observe DNS Traffic</h2>
@@ -245,8 +247,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Open the command line and type: `nslookup google.com` and `nslookup disney.com`.  
 - Observe the DNS traffic in Wireshark.  </p>
 
-<p>
-<img src="https://github.com/user-attachments/assets/b473e66a-630e-4931-a4ee-96bf338519d1" height="80%" width="80%" alt="Part 1"/>
+<p align="center">
+  <a href="https://youtu.be/WzQL8AFbGeU">
+    <img src="https://img.youtube.com/vi/WzQL8AFbGeU/0.jpg" width="80%" />
+  </a>
 </p>
 
 <h2>Observe RDP Traffic</h2>
@@ -257,8 +261,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - **Why does RDP traffic constantly spam?**  
 - RDP (Remote Desktop Protocol) constantly streams live data between two computers, so traffic is always being transmitted.  
 
-<p>
-<img src="https://github.com/user-attachments/assets/b473e66a-630e-4931-a4ee-96bf338519d1" height="80%" width="80%" alt="Part 1"/>
+<p align="center">
+  <a href="https://youtu.be/eAUVr9meCvs">
+    <img src="https://img.youtube.com/vi/eAUVr9meCvs/0.jpg" width="80%" />
+  </a>
 </p>
 
 <h2>Lab Cleanup (DON’T FORGET THIS)</h2>
