@@ -221,8 +221,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Type commands (username, password, etc.) into the Linux SSH connection and observe the SSH traffic in Wireshark.  
 - Exit the SSH connection by typing `exit` and pressing [Enter].  
 
-<p>
-<img src="https://github.com/user-attachments/assets/b473e66a-630e-4931-a4ee-96bf338519d1" height="80%" width="80%" alt="Part 1"/>
+<p align="center">
+  <a href="https://youtu.be/0sdMV52MVlo">
+    <img src="https://img.youtube.com/vi/0sdMV52MVlo/0.jpg" width="80%" />
+  </a>
 </p>
 
 <h2>Observe DHCP Traffic</h2>
