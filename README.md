@@ -204,8 +204,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   - Back in the Windows 10 VM:  
     - Observe the ICMP traffic in Wireshark and the command line Ping activity (the ping should start working again).  
   - Stop the ping activity.
+<p>
+<img src="https://github.com/user-attachments/assets/b473e66a-630e-4931-a4ee-96bf338519d1" height="80%" width="80%" alt="Part 1"/>
+</p>
 
-## Observe SSH Traffic  
+<h2>Observe SSH Traffic</h2>
+<p>
 - Log back into the `windows-vm`.  
 - In Wireshark, start a packet capture.  
 - Filter for SSH traffic only.  
@@ -213,53 +217,42 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   - Open PowerShell and type: `ssh labuser@<private IP address>`  
 - Type commands (username, password, etc.) into the Linux SSH connection and observe the SSH traffic in Wireshark.  
 - Exit the SSH connection by typing `exit` and pressing [Enter].  
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/b473e66a-630e-4931-a4ee-96bf338519d1" height="80%" width="80%" alt="Part 1"/>
+</p>
 
-## Observe DHCP Traffic  
+<h2>Observe DHCP Traffic</h2>
+<p>
 - Back in Wireshark, filter for DHCP traffic only.  
 - From your Windows 10 VM, issue your VM a new IP address from the command line:  
   - Open PowerShell as admin and run: `ipconfig /renew`  
-- Observe the DHCP traffic appearing in Wireshark.  
+- Observe the DHCP traffic appearing in Wireshark.  </p>
+<p>
+<img src="https://github.com/user-attachments/assets/b473e66a-630e-4931-a4ee-96bf338519d1" height="80%" width="80%" alt="Part 1"/>
+</p>
 
-## Observe DNS Traffic  
+<h2>Observe DNS Traffic</h2>
+<p>
 - Back in Wireshark, filter for DNS traffic only.  
 - From your Windows 10 VM, use `nslookup` to resolve the IP addresses for `google.com` and `disney.com`:  
-  - Open the command line and type: `nslookup google.com` and `nslookup disney.com`.  
-- Observe the DNS traffic in Wireshark.  
+- Open the command line and type: `nslookup google.com` and `nslookup disney.com`.  
+- Observe the DNS traffic in Wireshark.  </p>
+<p>
+<img src="https://github.com/user-attachments/assets/b473e66a-630e-4931-a4ee-96bf338519d1" height="80%" width="80%" alt="Part 1"/>
+</p>
 
-## Observe RDP Traffic  
+<h2>Observe RDP Traffic</h2>
+<p>
 - Back in Wireshark, filter for RDP traffic only (`tcp.port == 3389`).  
 - Observe the immediate, non-stop spam of traffic.  
 - **Why does RDP traffic constantly spam?**  
-  - RDP (Remote Desktop Protocol) constantly streams live data between two computers, so traffic is always being transmitted.  
+- RDP (Remote Desktop Protocol) constantly streams live data between two computers, so traffic is always being transmitted.  
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/b473e66a-630e-4931-a4ee-96bf338519d1" height="80%" width="80%" alt="Part 1"/>
+</p>
 
-<h2>Observe SSH Traffic</h2>
-<p>
-First, I created an Azure Tenant and Subscription in Azure. After logging into the Azure portal, the dashboard should appear with no existing Resource Groups.
-</p>
-<p>
-<img src="https://github.com/user-attachments/assets/b473e66a-630e-4931-a4ee-96bf338519d1" height="80%" width="80%" alt="Part 1"/>
-</p>
-<h2>Observe DHCP Traffic</h2>
-<p>
-First, I created an Azure Tenant and Subscription in Azure. After logging into the Azure portal, the dashboard should appear with no existing Resource Groups.
-</p>
-<p>
-<img src="https://github.com/user-attachments/assets/b473e66a-630e-4931-a4ee-96bf338519d1" height="80%" width="80%" alt="Part 1"/>
-</p>
-<h2>Observe DNS Traffic</h2>
-<p>
-First, I created an Azure Tenant and Subscription in Azure. After logging into the Azure portal, the dashboard should appear with no existing Resource Groups.
-</p>
-<p>
-<img src="https://github.com/user-attachments/assets/b473e66a-630e-4931-a4ee-96bf338519d1" height="80%" width="80%" alt="Part 1"/>
-</p>
-<h2>Observe RDP Traffic</h2>
-<p>
-First, I created an Azure Tenant and Subscription in Azure. After logging into the Azure portal, the dashboard should appear with no existing Resource Groups.
-</p>
-<p>
-<img src="https://github.com/user-attachments/assets/b473e66a-630e-4931-a4ee-96bf338519d1" height="80%" width="80%" alt="Part 1"/>
-</p>
 <h2>Lab Cleanup (DON’T FORGET THIS)</h2>
 <ul>
   <li>Close your Remote Desktop connection</li>
@@ -275,6 +268,5 @@ In conclusion, we set up a Microsoft Azure tenant, created a subscription, and e
 <p>
 <img src="https://github.com/user-attachments/assets/0008c717-6b53-484e-add2-6b8e53a13cb6" height="80%" width="80%" alt="what we did"/>
 </p>
-
 
 <br />
