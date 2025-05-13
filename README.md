@@ -205,8 +205,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
     - Observe the ICMP traffic in Wireshark and the command line Ping activity (the ping should start working again).  
   - Stop the ping activity.
 
-<p>
-<img src="https://github.com/user-attachments/assets/b473e66a-630e-4931-a4ee-96bf338519d1" height="80%" width="80%" alt="Part 1"/>
+<p align="center">
+  <a href="https://youtu.be/of1aTFgg0kM">
+    <img src="https://img.youtube.com/vi/of1aTFgg0kM/0.jpg" width="80%" />
+  </a>
 </p>
 
 <h2>Observe SSH Traffic</h2>
