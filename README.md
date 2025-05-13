@@ -7,7 +7,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: Creating some virtual machines to dive into the lab!](https://youtu.be/2_FNf9q3QTc)
+- ### [YouTube: Observe ICMP Traffic](https://youtu.be/2_FNf9q3QTc)
  
 <h2>Environments and Technologies Used</h2>
 
