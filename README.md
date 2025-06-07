@@ -192,6 +192,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   - Attempt to ping a public website (e.g., `www.google.com`).  
   - Observe the traffic in Wireshark.  
 
+<h4>Video Demonstration</h4>
+
+
 [![Screen Shot](https://github.com/user-attachments/assets/8919c447-7e87-45fa-8598-26af70648a03)](https://youtu.be/2_FNf9q3QTc)
 
 <h2>Configuring a Firewall (Network Security Group):</h2>
@@ -204,6 +207,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   - Back in the Windows 10 VM:  
     - Observe the ICMP traffic in Wireshark and the command line Ping activity (the ping should start working again).  
   - Stop the ping activity.
+
+<h4>Video Demonstration</h4>
+
 
 <p align="center">
   <a href="https://youtu.be/of1aTFgg0kM">
@@ -221,6 +227,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Type commands (username, password, etc.) into the Linux SSH connection and observe the SSH traffic in Wireshark.  
 - Exit the SSH connection by typing `exit` and pressing [Enter].  
 
+<h4>Video Demonstration</h4>
+
+
 <p align="center">
   <a href="https://youtu.be/0sdMV52MVlo">
     <img src="https://img.youtube.com/vi/0sdMV52MVlo/0.jpg" width="80%" />
@@ -233,6 +242,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - From your Windows 10 VM, issue your VM a new IP address from the command line:  
   - Open PowerShell as admin and run: `ipconfig /renew`  
 - Observe the DHCP traffic appearing in Wireshark.  </p>
+
+<h4>Video Demonstration</h4>
+
 
 <p align="center">
   <a href="https://youtu.be/Q_fCYMqDARo">
@@ -247,6 +259,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Open the command line and type: `nslookup google.com` and `nslookup disney.com`.  
 - Observe the DNS traffic in Wireshark.  </p>
 
+<h4>Video Demonstration</h4>
+
+
 <p align="center">
   <a href="https://youtu.be/WzQL8AFbGeU">
     <img src="https://img.youtube.com/vi/WzQL8AFbGeU/0.jpg" width="80%" />
@@ -260,6 +275,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Observe the immediate, non-stop spam of traffic.  
 - **Why does RDP traffic constantly spam?**  
 - RDP (Remote Desktop Protocol) constantly streams live data between two computers, so traffic is always being transmitted.  
+
+<h4>Video Demonstration</h4>
 
 <p align="center">
   <a href="https://youtu.be/eAUVr9meCvs">
